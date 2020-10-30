@@ -8,8 +8,8 @@ FROM intermediate
 WORKDIR /git
 
 # Uncomment this:
-# ENTRYPOINT ["/bin/bash"]
+ ENTRYPOINT ["/bin/bash"]
 
 # And comment out these to enter this container for troubleshooting:
-ENTRYPOINT ["git"]
-CMD ["--help"]
+#ENTRYPOINT ["git"]
+#CMD ["--help"]
