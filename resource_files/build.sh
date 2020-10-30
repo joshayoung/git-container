@@ -1,5 +1,3 @@
 #!/bin/bash
 
-cp ~/.gitconfig .gitconfig_local
-
-docker build -t git-container .
+docker build -t git-image .
